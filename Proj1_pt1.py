@@ -94,6 +94,7 @@ mtrxU, mtrxS, mtrxV, K, invA = calc_svd(InputMtrx)
 print("Your condition number is: " , K)
 print("Your matrix SVD is: " , "\n U: ", mtrxU, "\n S: ", mtrxS, "\n VT:", mtrxV.T)
 
+#Checking my function with the built-in SVD function
 U, s, VT = svd(InputMtrx)
 print("U: " , U)
 print("S: " , s)
