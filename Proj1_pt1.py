@@ -88,7 +88,6 @@ def calc_svd(InputMtrx):
     TSF(mtrxA, mtrxV, mtrxU, eigvecsU)
     return(mtrxU, mtrxS, mtrxV, CndtnK, invA)
 
-
 InputMtrx = [[3,2,2],[2,3,-2]]
 mtrxU, mtrxS, mtrxV, K, invA = calc_svd(InputMtrx)
 print("Your condition number is: " , K)
